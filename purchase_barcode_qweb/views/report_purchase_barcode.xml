@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <openerp>
-    <data>
-        <template id="report_purchase_barcode">
-            <t t-name="purchase_barcode_qweb.report_purchase_barcode">
+<data>
+<template id="report_purchase_barcode">
+    <t t-name="purchase_barcode_qweb.report_purchase_barcode">
                 <div class="page" style="margin-left: -3mm;">
                     <table style="font-size:10.0px;" cellspacing="0">
                         <tr style="height: 19mm" t-foreach="getLabelRows(data,context)" t-as="label_row">
@@ -17,7 +17,7 @@
                         </tr>
                     </table>
                 </div>
-            </t>
-        </template>
-    </data>
+    </t>
+</template>
+</data>
 </openerp>

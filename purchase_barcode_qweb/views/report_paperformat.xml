@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <openerp>
     <data>
-
         <record id="paperformat_barcode_label_purchase" model="report.paperformat">
             <field name="name">Purchase barcode label</field>
             <field name="default" eval="True"/>
@@ -17,6 +16,5 @@
             <field name="header_spacing">0</field>
             <field name="dpi">300</field>
         </record>
-
     </data>
 </openerp>

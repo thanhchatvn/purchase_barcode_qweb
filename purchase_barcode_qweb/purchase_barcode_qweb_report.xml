@@ -14,7 +14,7 @@
 
 
         <record id="purchase_barcode_qweb" model="ir.actions.report.xml">
-            <field name="paperformat_id" ref="paperformat_barcode_label_purchase"/>
+            <field name="paperformat_id" ref="purchase_barcode_qweb.paperformat_barcode_label_purchase"/>
         </record>
 
     </data>
