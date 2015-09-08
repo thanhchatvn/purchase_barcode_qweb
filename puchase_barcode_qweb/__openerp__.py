@@ -36,8 +36,8 @@ for purchase order.
     'data': [
         'wizard/purchase_product_barcode_print.xml',
         'views/report_paperformat.xml',
-        'purchase_barcode_qweb_report.xml',
         'views/report_purchase_barcode.xml',
+        'purchase_barcode_qweb_report.xml',
     ],
     'demo': [
     ],
